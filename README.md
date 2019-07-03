@@ -1,17 +1,12 @@
-##Detecting Pikachu on Android using Tensorflow Object Detection##
-Overview
-This repo contains the code used in my experiment titled "Detecting Pikachu on Android using Tensorflow Object Detection". In this experiment, which is available here, I explained the many steps needed to train a custom object detection model using TensorFlow Object Detection API and how to deploy it in an Android device.
+# Google Colab Guide: Detecting Badass One Punch Man Heroes on Android
 
-The project was done on TensorFlow 1.4
+## Overview
 
-This project has been updated with a video detection feature. For a detailed explanation of why it was updated, and how the video detection was done, check out my second article titled Detecting Pikachu in videos using Tensorflow Object Detection
+This repo contains the code used in my experiment titled "Google Colab Guide: Detecting Badass One Punch Man Heroes on Android". In this experiment, which is available [here](https://medium.com/p/333c9d4149/edit), I went over the process of making dataset, provided instruction on how to use and modify my Google Colab in order to train training custom object detection model using [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and how to deploy it in an Android device.
 
-The code
-The content of this repo is mostly divided in 4 parts
+The project was done on TensorFlow 1.14.0
 
-The directory android contains the 'gradle.build' file used to build the example TensorFlow provides, and the file 'DetectorActivity.java' which is the responsible of performing the detection in the app
-The directory training has the final models my training produced, as well as the pipeline configuration file required for the training.
-The script detection_video.py which is used for performing the detections in videos
-The rest of the files are those scripts needed to prepare the dataset.
-Instructions
+## Instructions
 All this code by itself does not do anything. It must be used in combination with the Object Detection API. The report linked above has all the instructions on how to use the code alongside the API.
+ 
+ 
