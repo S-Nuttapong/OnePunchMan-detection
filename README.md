@@ -1,4 +1,4 @@
-Detecting Pikachu on Android using Tensorflow Object Detection
+#Detecting Pikachu on Android using Tensorflow Object Detection
 Overview
 This repo contains the code used in my experiment titled "Detecting Pikachu on Android using Tensorflow Object Detection". In this experiment, which is available here, I explained the many steps needed to train a custom object detection model using TensorFlow Object Detection API and how to deploy it in an Android device.
 
