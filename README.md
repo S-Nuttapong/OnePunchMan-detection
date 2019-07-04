@@ -1,4 +1,4 @@
-# Google Colab Guide: Detecting Badass One Punch Man Heroes on Android
+# Detecting One Punch Man Heroes on Android - Google Colab 
 
 ## Overview
 
