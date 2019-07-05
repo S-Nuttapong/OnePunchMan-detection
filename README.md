@@ -1,5 +1,12 @@
 # Detecting One Punch Man Heroes on Android - Google Colab 
 
+
+
+https://giphy.com/gifs/Q80jRozk9WoSXcWXjR/html5
+
+
+
+
 ## Overview
 
 This repo contains the code used in my experiment titled  Detecting One Punch Man Heroes on Android - Google colab". In this experiment, which is available [here](https://medium.com/p/333c9d4149/edit), I went over the process of making dataset, provided instruction on how to use and modify my Colab notebook in order to train your own custom object detection model using [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and how to deploy it in an Android device.
