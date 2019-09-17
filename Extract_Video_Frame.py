@@ -24,7 +24,7 @@ if os.path.exists(pathIn):
     fps = fps
     fps_2_capture = round(sec * fps)
 
-    vid_frame = 0
+    actual_frame = 0
     vid_frame_saved = 0
 
     while (cap.isOpened()):
@@ -41,7 +41,7 @@ if os.path.exists(pathIn):
 
         if frameId % fps_2_capture == 0:
 
-            vid_frame = 'frame' + str(switcher['actual_num_frame'])
+            vid_frame = 'frame' + str(actual_frame)
             #str_0 conv int to str
             fname = name + '_{str_0:0>{str_1}}.jpg'.format(str_0=vid_frame_saved, str_1=int_desiredLength)
 
@@ -50,7 +50,7 @@ if os.path.exists(pathIn):
 
             vid_frame_saved += 1
 
-        vid_frame += 1
+       actual_frame += 1
 
 else:
     print('path to video file does not exist')
