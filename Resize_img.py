@@ -7,6 +7,7 @@ pathIn = path to video
 pathOut = where output images will be saved
 name = name of file
 newsize = desired size
+int_desiredLength = integer point for output image file name, eg int_desiredLength=3 ---> image1_000, image2_001,..
 '''
 
 if not os.path.exists(pathOut):
